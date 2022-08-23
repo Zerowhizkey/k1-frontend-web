@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import { useEffect } from "react";
 import { useState } from "react";
 import dayjs from "dayjs";
-const socket = io("http://localhost:4001/");
+const socket = io("https://k1-backend-web.herokuapp.com/");
 
 function App() {
 	const [message, setMessage] = useState("");
