@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { io } from "socket.io-client";
 import { useEffect } from "react";
