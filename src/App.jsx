@@ -115,7 +115,7 @@ function App() {
 										Create
 									</button>
 									<div>
-										{rooms.map((room) => (
+										{rooms?.map((room) => (
 											<div key={room.id}>
 												<button
 													className="roomsId"
