@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "start": "serve -s build",
     "build": "vite build",
-    "preview": "vite preview",
-    "heroku-postbuild": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "dayjs": "^1.11.3",
