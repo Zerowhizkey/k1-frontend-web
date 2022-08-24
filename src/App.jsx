@@ -115,7 +115,7 @@ function App() {
 										Create
 									</button>
 									<div>
-										{rooms?.map((room) => (
+										{rooms.map((room) => (
 											<div key={room.id}>
 												<button
 													className="roomsId"
@@ -143,7 +143,7 @@ function App() {
 									<p>USERS:</p>
 									<div>
 										{users &&
-											users?.map((user) => (
+											users.map((user) => (
 												<div key={user.id}>
 													<button
 														className="usersId"
@@ -173,7 +173,7 @@ function App() {
 
 							<div className="chatLayout">
 								<div className="chat">
-									{messages?.map((message) => (
+									{messages.map((message) => (
 										<div key={message.id}>
 											<p className="userId">
 												{message.user_name}:
